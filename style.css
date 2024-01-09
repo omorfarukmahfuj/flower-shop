@@ -1,0 +1,66 @@
+/* Fonts Added */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Common Styles */
+
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section-description {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.btn-primary {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #E55473;
+  padding: 15px 32px;
+  border: none;
+}
+
+/* Header Styles */
+header {
+  background-color: rgba(229, 84, 115, 0.10);
+  padding-top: 50px;
+  margin-bottom: 130px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text * {
+  max-width: 525px;
+  margin-bottom: 24px;
+}
+
+.hero-text h1 {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: end;
+}
+
+.hero-image img {
+  width: 75%;
+  max-width: 635px;
+}
