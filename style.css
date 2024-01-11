@@ -176,3 +176,14 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+/* Instagram Section Styles */
+.instagram-gallery {
+  display: flex;
+  gap: 24px;
+
+}
+
+.instagram-gallery img {
+  width: 25%;
+}
