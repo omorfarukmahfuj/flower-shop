@@ -161,7 +161,7 @@ header {
   gap: 140px;
   background-color: rgba(229, 84, 115, 0.10);
   margin-bottom: 128px;
-  padding: 50px 0;
+  padding: 75px 0;
 }
 
 .hot-deal-text {
@@ -186,4 +186,33 @@ header {
 
 .instagram-gallery img {
   width: 25%;
+}
+
+/* Newsletter Styles */
+/*  */
+.newsletter-container {
+  padding: 100px 0;
+  border-radius: 8px;
+  background-image: url("assets/Rectangle9.png");
+  background-size: cover;
+
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.input-container input[type='email'] {
+  border-radius: 8px;
+  background: #FFF;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 15px;
+  flex-grow: 1;
 }
