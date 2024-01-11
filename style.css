@@ -120,3 +120,30 @@ header {
   font-size: 24px;
   font-weight: 700;
 }
+
+/* Featured Styles */
+.features-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 85px;
+  margin-top: 128px;
+}
+
+.features-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.features-section div p {
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
